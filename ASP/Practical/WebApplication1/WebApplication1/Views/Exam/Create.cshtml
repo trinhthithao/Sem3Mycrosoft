@@ -22,8 +22,8 @@
                 @{var listItems = new List<ListItem>
                   {
                       new ListItem { Text = "Core Java", Value="Core Java" },
-                      new ListItem { Text = "Advanced Java", Value="Exemplo2" },
-                      new ListItem { Text = "Programming C#", Value="Exemplo3" }
+                      new ListItem { Text = "Advanced Java", Value="Advanced Java" },
+                      new ListItem { Text = "Programming C#", Value="Programming C#" }
                   };
                 }
                 @Html.DropDownList("Subject",new SelectList(listItems,"Value","Text"))
