@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="14afbe447a4a43f9abe8c2b3f7dda5ea" Name="Diagram1">
+        <EntityTypeShape EntityType="DbtranvellerModel.Admin" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbtranvellerModel.Comment" Width="1.5" PointX="7.5" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbtranvellerModel.Image" Width="1.5" PointX="7.5" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbtranvellerModel.Post" Width="1.5" PointX="5.25" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbtranvellerModel.Role" Width="1.5" PointX="0.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbtranvellerModel.Sub_Comment" Width="1.5" PointX="9.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbtranvellerModel.Tag" Width="1.5" PointX="5.25" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbtranvellerModel.Tag_Post" Width="1.5" PointX="7.5" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbtranvellerModel.Traveler" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbtranvellerModel.Vote" Width="1.5" PointX="10.5" PointY="7.5" IsExpanded="true" />
+        <AssociationConnector Association="DbtranvellerModel.Comment_Post" ManuallyRouted="false" />
+        <AssociationConnector Association="DbtranvellerModel.Comment_Traveler" ManuallyRouted="false" />
+        <AssociationConnector Association="DbtranvellerModel.Sub_Comment_Comment" ManuallyRouted="false" />
+        <AssociationConnector Association="DbtranvellerModel.Image_Post" ManuallyRouted="false" />
+        <AssociationConnector Association="DbtranvellerModel.Post_Traveler" ManuallyRouted="false" />
+        <AssociationConnector Association="DbtranvellerModel.Tag_Post_Post" ManuallyRouted="false" />
+        <AssociationConnector Association="DbtranvellerModel.Vote_Post" ManuallyRouted="false" />
+        <AssociationConnector Association="DbtranvellerModel.Traveler_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="DbtranvellerModel.Sub_Comment_Traveler" ManuallyRouted="false" />
+        <AssociationConnector Association="DbtranvellerModel.Tag_Post_Tag" ManuallyRouted="false" />
+        <AssociationConnector Association="DbtranvellerModel.Vote_Traveler" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
